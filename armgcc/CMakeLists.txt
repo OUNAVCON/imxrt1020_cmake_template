@@ -65,6 +65,7 @@ target_include_directories(${MCUX_SDK_PROJECT_NAME} PRIVATE
 
 #include the source code
 include(${ProjDirPath}/../src/all_sources.cmake)
+include(${ProjDirPath}/../board/all_sources.cmake)
 
 include(${SdkRootDirPath}/devices/MIMXRT1021/all_lib_device.cmake)
 
