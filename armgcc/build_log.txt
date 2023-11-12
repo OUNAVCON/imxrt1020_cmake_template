@@ -1,0 +1,41 @@
+Scanning dependencies of target freertos_hello.elf
+[  5%] Building C object CMakeFiles/freertos_hello.elf.dir/project/src/board.c.obj
+[  5%] Building C object CMakeFiles/freertos_hello.elf.dir/project/src/clock_config.c.obj
+[  8%] Building C object CMakeFiles/freertos_hello.elf.dir/project/src/dcd.c.obj
+[ 14%] Building C object CMakeFiles/freertos_hello.elf.dir/project/src/freertos_hello.c.obj
+[ 14%] Building C object CMakeFiles/freertos_hello.elf.dir/project/src/pin_mux.c.obj
+[ 17%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/components/lists/fsl_component_generic_list.c.obj
+[ 20%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/components/uart/fsl_adapter_lpuart.c.obj
+[ 26%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/components/serial_manager/fsl_component_serial_port_uart.c.obj
+[ 29%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/components/serial_manager/fsl_component_serial_manager.c.obj
+[ 29%] Building ASM object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/MIMXRT1021/gcc/startup_MIMXRT1021.S.obj
+[ 35%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/MIMXRT1021/system_MIMXRT1021.c.obj
+[ 35%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/MIMXRT1021/drivers/fsl_clock.c.obj
+[ 41%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/MIMXRT1021/drivers/fsl_common_arm.c.obj
+[ 41%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/MIMXRT1021/drivers/fsl_common.c.obj
+[ 44%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/MIMXRT1021/drivers/fsl_gpio.c.obj
+[ 47%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/MIMXRT1021/drivers/fsl_lpuart.c.obj
+[ 52%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/MIMXRT1021/xip/fsl_flexspi_nor_boot.c.obj
+[ 52%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/boards/evkmimxrt1020/xip/evkmimxrt1020_flexspi_nor_config.c.obj
+[ 61%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/event_groups.c.obj
+[ 61%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/list.c.obj
+[ 61%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/croutine.c.obj
+[ 67%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/queue.c.obj
+[ 67%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/stream_buffer.c.obj
+[ 73%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/tasks.c.obj
+[ 73%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/timers.c.obj
+[ 76%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/portable/GCC/ARM_CM4F/port.c.obj
+[ 79%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/rtos/freertos/freertos-kernel/portable/MemMang/heap_4.c.obj
+[ 85%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/MIMXRT1021/utilities/fsl_sbrk.c.obj
+[ 85%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/MIMXRT1021/utilities/fsl_syscall_stub.c.obj
+[ 88%] Building ASM object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/MIMXRT1021/utilities/fsl_memcpy.S.obj
+[ 91%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/MIMXRT1021/utilities/fsl_assert.c.obj
+[ 97%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/MIMXRT1021/utilities/str/fsl_str.c.obj
+[ 97%] Building C object CMakeFiles/freertos_hello.elf.dir/project/sdk/devices/MIMXRT1021/utilities/debug_console/fsl_debug_console.c.obj
+[100%] Linking C executable debug/freertos_hello.elf
+Memory region         Used Size  Region Size  %age Used
+    m_interrupts:          1 KB         1 KB    100.00%
+          m_text:       23608 B        63 KB     36.59%
+          m_data:       12872 B        64 KB     19.64%
+         m_data2:          0 GB       128 KB      0.00%
+[100%] Built target freertos_hello.elf

@@ -1,0 +1,31 @@
+{
+  "build_type": {
+    "default": "debug",
+    "choices": {
+      "debug": {
+        "short": "debug",
+        "buildType": "debug"
+      },
+      "release": {
+        "short": "release",
+        "buildType": "release"
+      },
+      "sdram_debug": {
+        "short": "sdram_debug",
+        "buildType": "sdram_debug"
+      },
+      "sdram_release": {
+        "short": "sdram_release",
+        "buildType": "sdram_release"
+      },
+      "flexspi_nor_debug": {
+        "short": "flexspi_nor_debug",
+        "buildType": "flexspi_nor_debug"
+      },
+      "flexspi_nor_release": {
+        "short": "flexspi_nor_release",
+        "buildType": "flexspi_nor_release"
+      }
+    }
+  }
+}
