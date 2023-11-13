@@ -60,9 +60,13 @@ int main(void)
  */
 static void hello_task(void *pvParameters)
 {
+    uint8_t ledState = 0;
     for (;;)
     {
         PRINTF("Hello world.\r\n");
-        vTaskSuspend(NULL);
+        //vTaskSuspend(NULL);
+        vTaskDelay(100); //Ticks
+        ledState^=1;
+        GPIO_PinWrite(BOARD_USER_LED_GPIO,BOARD_USER_LED_GPIO_PIN,ledState);
     }
 }

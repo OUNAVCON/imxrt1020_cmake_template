@@ -2,17 +2,17 @@
   {
     "name": "ARM GCC",
     "environmentVariables": {
-      "ARMGCC_DIR": "<yourPath>\\.mcuxpressotools\\arm-gnu-toolchain-12.2.rel1-mingw-w64-i686-arm-none-eabi",
-      "SdkRootDirPath": "d:/NXP/sdk/SDK_2_14_0_EVK-MIMXRT1020"
+      "ARMGCC_DIR": "C:\\Users\\isaac\\.mcuxpressotools\\arm-gnu-toolchain-12.2.rel1-mingw-w64-i686-arm-none-eabi",
+      "SdkRootDirPath": "${workspaceFolder}/sdk"
     },
     "cmakeSettings": {
       "LIBRARY_TYPE": "NEWLIB",
       "LANGUAGE": "C",
       "DEBUG_CONSOLE": "UART",
-      "POSTPROCESS_UTILITY": "<yourPath>\\.mcuxpressotools\\mcux-fixelf\\mcux-fixelf-windows.exe",
-      "SdkRootDirPath": "<yourPath>/SDK_2_14_0_EVK-MIMXRT1020"
+      "POSTPROCESS_UTILITY": "C:\\Users\\isaac\\.mcuxpressotools\\mcux-fixelf\\mcux-fixelf-windows.exe",
+      "SdkRootDirPath": "${workspaceFolder}/sdk"
     },
     "keep": true,
-    "toolchainFile": "<yourPath>\\SDK_2_14_0_EVK-MIMXRT1020\\tools\\cmake_toolchain_files\\armgcc.cmake"
+    "toolchainFile": "${workspaceFolder}\\sdk\\tools\\cmake_toolchain_files\\armgcc.cmake"
   }
 ]

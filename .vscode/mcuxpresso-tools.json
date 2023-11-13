@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "toolchainPath": "<yourPath>/.mcuxpressotools/arm-gnu-toolchain-12.2.rel1-mingw-w64-i686-arm-none-eabi",
+  "toolchainPath": "C:/Users/isaac/.mcuxpressotools/arm-gnu-toolchain-12.2.rel1-mingw-w64-i686-arm-none-eabi",
   "toolchainVersion": "Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)",
   "linkedProjects": [],
   "trustZoneType": "none",
@@ -8,7 +8,9 @@
   "debug": {
     "linkserver": {},
     "pemicro": {},
-    "segger": {}
+    "segger": {
+      "device": "MIMXRT1021DAG5A"
+    }
   },
   "projectType": "sdk-freestanding",
   "sdk": {
@@ -16,7 +18,7 @@
     "deviceId": "MIMXRT1021xxxxx",
     "coreId": "core0_MIMXRT1021xxxxx",
     "version": "",
-    "path": "<yourPath>\\SDK_2_14_0_EVK-MIMXRT1020",
+    "path": "d:\\NXP\\sdk\\SDK_2_14_0_EVK-MIMXRT1020",
     "manifestId": "SDK_2.x_EVK-MIMXRT1020"
   }
 }
